@@ -260,9 +260,6 @@ end
 -- Hauptinitialisierung
 local flyController = FlyController.new()
 
--- Starte das System
-flyController:onStart()
-
 -- Tick-Connection
 RunService.Heartbeat:Connect(function()
     flyController:onTick()
