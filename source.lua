@@ -4,7 +4,7 @@ local UserInputService = game:GetService("UserInputService")
 local Workspace = game:GetService("Workspace")
 local RunService = game:GetService("RunService")
 
--- Vereinfachter Import ohne RuntimeLib
+-- Vereinfachter Import ohne RuntimeLib-
 local function simpleImport(base, ...)
     local current = base
     for _, path in ipairs({...}) do
